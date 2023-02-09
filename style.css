@@ -52,18 +52,19 @@ main{
     align-items: center;
 }
 
-div img{
+.contenedor-burguer img{
     width: 330px;
     height: 330px;
     margin: auto;
+    transition: 0.3s;
 }
 
-.zoom{
-    transition: transform 0.2s;
+.contenedor-burguer img{
+    transition: 0.3s;
 }
 
-.zoom:hoover{
-    transform: scale(1.5);
+.contenedor-burguer div img:hover{
+    transform: scale(0.9);
 }
 
 p{
