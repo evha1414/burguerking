@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*font-family: Flame-Regular;*/
+}
+
+header{
+    position: sticky;
+}
+
+nav{
+    background-color: #f5ebdc;
+    border-color: rgba(245, 235, 220, 0.6);
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px 0 rgba(44, 44, 49, 0.1);
+}
+
+nav a{
+    padding: 6px 12px;
+    text-decoration: none;
+    font-size: medium !important;
+    color:#502314;
+}
+
+
+
+
+
+
